@@ -29,7 +29,7 @@ func main() {
 
 	fmt.Println("--------------------------------------------------------------------------")
 
-	convertido, mensaje := ejercicios.FuncionEjercicio("99l")
+	convertido, mensaje := ejercicios.ConvNumerico("99l")
 	fmt.Println(convertido)
 	fmt.Println(mensaje)
 }
