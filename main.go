@@ -5,10 +5,13 @@ import (
 	"runtime"
 
 	"github.com/severuss922/godesde0/ejercicios"
+	"github.com/severuss922/godesde0/teclado"
 	"github.com/severuss922/godesde0/variables"
 )
 
 func main() {
+
+	fmt.Println("--------------------------------------------------------------------------")
 	estado, texto := variables.ConviertoATexto(123)
 	fmt.Println(estado)
 	fmt.Println(texto)
@@ -32,4 +35,8 @@ func main() {
 	convertido, mensaje := ejercicios.ConvNumerico("99l")
 	fmt.Println(convertido)
 	fmt.Println(mensaje)
+
+	fmt.Println("--------------------------------------------------------------------------")
+
+	teclado.IngresoNumeros()
 }
