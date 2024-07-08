@@ -1,6 +1,6 @@
 package main
 
-import "github.com/severuss922/godesde0/funciones"
+import "github.com/severuss922/godesde0/arreglos_slices"
 
 func main() {
 	/*
@@ -39,5 +39,5 @@ func main() {
 	//files.SumaTabla()
 	//files.LeoArchivo2()
 
-	funciones.Exponencia(2)
+	arreglos_slices.Capacidad()
 }
