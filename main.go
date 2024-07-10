@@ -1,8 +1,7 @@
 package main
 
 import (
-	e "github.com/severuss922/godesde0/ejer_interfaces"
-	"github.com/severuss922/godesde0/modelos"
+	e "github.com/severuss922/godesde0/defer_panic"
 )
 
 func main() {
@@ -42,9 +41,5 @@ func main() {
 	//files.SumaTabla()
 	//files.LeoArchivo2()
 
-	Pedro := new(modelos.Hombre)
-	e.VerificarVida(Pedro)
-
-	Maria := new(modelos.Mujer)
-	e.HumanosRespirando(Maria)
+	e.EjemploPanic()
 }
