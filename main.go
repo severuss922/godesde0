@@ -1,6 +1,9 @@
 package main
 
-import "github.com/severuss922/godesde0/mapas"
+import (
+	e "github.com/severuss922/godesde0/ejer_interfaces"
+	"github.com/severuss922/godesde0/modelos"
+)
 
 func main() {
 	/*
@@ -39,5 +42,9 @@ func main() {
 	//files.SumaTabla()
 	//files.LeoArchivo2()
 
-	mapas.MostrarMapas()
+	Pedro := new(modelos.Hombre)
+	e.VerificarVida(Pedro)
+
+	Maria := new(modelos.Mujer)
+	e.HumanosRespirando(Maria)
 }

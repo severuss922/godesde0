@@ -1,0 +1,16 @@
+package ejer_interfaces
+
+import (
+	"fmt"
+
+	"github.com/severuss922/godesde0/interfaces"
+)
+
+func HumanosRespirando(hu interfaces.Humano) {
+	hu.Respirar()
+	fmt.Printf("Soy un/a %s, y estoy respirando \n", hu.Sexo())
+}
+
+func VerificarVida(sv interfaces.Humano) {
+	fmt.Printf("%t\n", sv.EstaVivo())
+}
