@@ -1,7 +1,7 @@
 package main
 
 import (
-	e "github.com/severuss922/godesde0/defer_panic"
+	"github.com/severuss922/godesde0/webserver"
 )
 
 func main() {
@@ -41,5 +41,13 @@ func main() {
 	//files.SumaTabla()
 	//files.LeoArchivo2()
 
-	e.EjemploPanic()
+	/*
+		canal1 := make(chan bool)
+		go goroutines.MiNombreLento("Martin Marquez", canal1)
+		defer func() {
+			<-canal1
+		}()
+		fmt.Println("Estoy aquí")*/
+
+	webserver.MiWebServer()
 }
